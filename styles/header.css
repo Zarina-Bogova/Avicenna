@@ -1,0 +1,93 @@
+.header { margin-top: 50px;}
+
+.header__top
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 253px;
+    margin-bottom: 24px;
+}
+
+.header__top-services, .header__top-contacts
+{
+    display: flex;
+    gap: 48px;
+}
+
+.header__top-services-links, .header__top-contacts-links
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s all ease;
+}
+
+.header__top-services-links:hover
+{
+    color: blue;
+    scale: 2;
+}
+
+.header__top-contacts-links:hover
+{
+    color: blue;
+    scale: 2;
+}
+
+.header__bottom
+{
+    display: flex;
+    gap: 101px;
+}
+
+.header__bottom-record
+{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+}
+
+.header__bottom-record-input
+{
+    border: 1px solid var(--white-smoke);
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.header__bottom-record-chart-number
+{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: right;
+}
+
+.header__bottom-record-chart-time
+{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: right;
+    color: #999999;
+}
+
+.header__bottom-record-pozishen-input
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    padding: 24px;
+    width: 598px;
+    height: 72px;
+    padding-left: 60px;
+}
+
+.header__bottom-record-pozishen-img
+{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
