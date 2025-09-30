@@ -1,0 +1,59 @@
+.banner
+{
+    background-image: url(/imges/Фон.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px;
+    margin-bottom: 96px;
+}
+
+.banner__new
+{
+    border-radius: 24px;
+    padding: 12px 24px;
+    background-color: #FC7753;
+    width: 117px;
+    height: 48px;
+    margin-bottom: 102px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+}
+
+.banner__title
+{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 108%;
+    margin-bottom: 24px;
+}
+
+.banner__description
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 48px;
+}
+
+.banner .g-button { margin-bottom: 130px; }
+
+.banner__navigation
+{
+    display: flex;
+    gap: 16px;
+}
+
+.banner__navigation-link
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s all ease;
+}
+
+.banner__navigation-link:hover { scale: 3;}
